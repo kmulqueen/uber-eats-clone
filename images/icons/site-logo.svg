@@ -1,7 +1,7 @@
 <svg id="site-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 81.38 12.9">
     <style>
         #site-logo {
-            fill: #fd0;
+            fill: #FFFFEF;
             font-size: 13px;
             width: 180px;
             height: 30px;
@@ -25,17 +25,17 @@
         }
     </style>
     <text transform="translate(0 11.37)">
-        <tspan class="small-negative-letter-spacing">A</tspan>
-        <tspan class="no-letter-spacing" x="8.49" y="0">u</tspan>
-        <tspan class="small-negative-letter-spacing" x="15.71" y="0">s</tspan>
-        <tspan class="small-negative-letter-spacing" x="22.15" y="0">s</tspan>
-        <tspan class="small-negative-letter-spacing" x="28.55" y="0">i</tspan>
-        <tspan x="31.72" y="0">e </tspan>
-        <tspan class="large-negative-letter-spacing" x="41.85" y="0">T</tspan>
-        <tspan class="no-letter-spacing" x="48.33" y="0">u</tspan>
-        <tspan class="small-negative-letter-spacing" x="55.53" y="0">c</tspan>
-        <tspan class="medium-negative-letter-spacing" x="62.49" y="0">k</tspan>
-        <tspan class="no-letter-spacing" x="69.05" y="0">e</tspan>
-        <tspan x="76.13" y="0">r</tspan>
+        <tspan class="no-letter-spacing">C</tspan>
+        <tspan class="no-letter-spacing" x="8.49" y="0">o</tspan>
+        <tspan class="no-letter-spacing" x="15.71" y="0">l</tspan>
+        <tspan class="no-letter-spacing" x="18.2" y="0">o</tspan>
+        <tspan class="no-letter-spaceing" x="25" y="0">r</tspan>
+        <tspan x="30" y="0">a</tspan>
+        <tspan class="no-letter-spaceing" x="37" y="0">d</tspan>
+        <tspan class="no-letter-spacing" x="44" y="0">o </tspan>
+        <tspan class="small-negative-letter-spacing" x="53" y="0">F</tspan>
+        <tspan class="medium-negative-letter-spacing" x="59.5" y="0">o</tspan>
+        <tspan class="no-letter-spacing" x="66.5" y="0">o</tspan>
+        <tspan x="73.2" y="0">d</tspan>
     </text>
 </svg>

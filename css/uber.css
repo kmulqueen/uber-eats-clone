@@ -43,6 +43,24 @@ body > footer {
 body > header {
     background: var(--color-green-light);
     z-index: 1;
+    display: grid;
+    grid: 4rem / 1fr 4rem;
+    column-gap: 1rem;
+    align-content: center;
+    align-items: center;
+}
+
+body > header > a {
+    display: flex;
+    align-items: center;
+}
+
+body > header > a > img {
+    height: 3rem;
+}
+
+body > header > img {
+    cursor: pointer;
 }
 
 body > main {
