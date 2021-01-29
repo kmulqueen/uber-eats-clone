@@ -1,3 +1,12 @@
+:root {
+    --color-blue-dark: #50808E;
+    --color-blue-light: #69A297;
+    --color-green-blue: #84B59F;
+    --color-green-light: #A3C9A8;
+    --color-tan: #DDD8C4;
+    --color-white: #FFFFEF;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -12,11 +21,35 @@ body {
 html {
     font-family: "Helvetica Neue", Helvetica, sans-serif;
     background: #FFF;
-    font-size: 10px;
+    font-size: 62.5%;
 }
 
 body {
     font-size: 1.6rem;
     line-height: 2.4rem;
-    color: #262;
+    color: var(--color-blue-dark);
+    display: grid;
+    grid: "header" 7.4rem
+          "main" 1fr
+          "footer" max-content / 1fr;
+}
+
+body > header,
+body > main,
+body > footer {
+    padding: 0 1em;
+}
+
+body > header {
+    background: var(--color-green-light);
+    z-index: 1;
+}
+
+body > main {
+    background: var(--color-white);
+}
+
+body > footer {
+    background: var(--color-green-blue);
+    color: var(--color-white);
 }
