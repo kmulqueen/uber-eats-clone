@@ -109,6 +109,20 @@ body > main {
 
 .main-delivery-container {
     grid-area: main-delivery;
+    padding-top: 1em;
+    display: grid;
+    grid: repeat(2, max-content) / auto-flow minmax(max-content, 1fr) minmax(max-content, 3fr);
+    gap: 0.5em;
+}
+
+.main-delivery-label {
+    color: #535331;
+    font-weight: 400;
+}
+
+.main-delivery-choice {
+    border: 1px solid var(--color-blue-dark);
+    padding: 8px;
 }
 
 .store-list-container {
