@@ -34,6 +34,11 @@ body {
           "footer" max-content / 1fr;
 }
 
+h2 {
+    font-size: 2.2rem;
+    font-weight: 400;
+}
+
 body > header,
 body > main,
 body > footer {
@@ -126,7 +131,110 @@ body > main {
 }
 
 .store-list-container {
-    grid-area: store-list;;
+    grid-area: store-list;
+}
+
+.store-list-container > h2 {
+    margin-top: 0.727272em;
+    margin-bottom: 1.454545em;
+}
+
+.store-list-container > ul {
+    list-style: none;
+    display: grid;
+    grid: auto-flow 31rem / 1fr;
+    row-gap: 4em;
+}
+
+.store-list-container > ul a {
+    text-decoration: none;
+    color: #262626;
+}
+
+.store-list-container li article {
+    background: var(--color-green-light);
+    padding-bottom: 1.25em;
+}
+
+.store-list-container li article .thumbnail-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 20rem;
+}
+
+.store-list-container li article h3 {
+    color: var(--color-white);
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top: 0.625em;
+    padding: 0 0.625em;
+    white-space: nowrap;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+
+.store-list-container li article p {
+    font-size: 1.4rem;
+    padding: 0 0.7142857em;
+}
+
+.store-list-container li article p:first-of-type {
+    color: var(--color-blue-dark);
+    white-space: nowrap;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+
+.store-list-container li article p:last-of-type {
+    margin-top: 0.5714285em;
+}
+
+.store-list-container li article p:last-of-type > span {
+    padding: 0.2857142em 0.5714285em;
+    background: var(--color-blue-light);
+    color: var(--color-white);
+}
+
+.store-list-container li article p:last-of-type img {
+    width: 1em;
+    height: 1em;
+}
+
+.flying-pig .thumbnail-image {
+    background-image: url(../images/stores/flying-pig.png);
+}
+
+.tommys-subs .thumbnail-image {
+    background-image: url(../images/stores/tommys-subs.jpg);
+}
+
+.willys-wings .thumbnail-image {
+    background-image: url(../images/stores/willys-wings.jpg);
+}
+
+.chens-kitchen .thumbnail-image {
+    background-image: url(../images/stores/chens-kitchen.jpg);
+}
+
+.los-dos .thumbnail-image {
+    background-image: url(../images/stores/los-dos.png);
+}
+
+.tacos-selene .thumbnail-image {
+    background-image: url(../images/stores/tacos-selene.jpg);
+}
+
+.virgilios .thumbnail-image{
+    background-image: url(../images/stores/virgilios.png);
+}
+
+.lil-riccis .thumbnail-image {
+    background-image: url(../images/stores/lil-riccis.jpg);
+}
+
+.turntable-bbq .thumbnail-image {
+    background-image: url(../images/stores/turntable-bbq.jpg);
 }
 
 body > footer {
