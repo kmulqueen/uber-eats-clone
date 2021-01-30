@@ -46,7 +46,7 @@ body > footer {
 }
 
 body > header {
-    background: var(--color-green-light);
+    background: var(--color-blue-dark);
     z-index: 1;
     grid-area: header;
     display: grid;
@@ -61,7 +61,8 @@ body > header > a {
     align-items: center;
 }
 
-body > header > a > img {
+body > header > a > img,
+body > footer > img {
     height: 3rem;
 }
 
@@ -78,6 +79,7 @@ body > main {
           "store-list" 1fr / 1fr;
     row-gap: 2.4rem;
     padding-top: 1.5em;
+    padding-bottom: 2em;
 }
 
 .store-search-container {
@@ -241,4 +243,46 @@ body > footer {
     background: var(--color-green-blue);
     color: var(--color-white);
     grid-area: footer;
+    padding-top: 2.4em;
+    padding-bottom: 2.4em;
+}
+
+hr {
+    margin: 1.5em 0;
+    border-bottom: 1px solid var(--color-blue-dark);
+}
+
+body > footer li {
+    list-style: none;
+}
+
+body > footer a {
+    display: block;
+    color: var(--color-white);
+    text-decoration: none;
+    margin-bottom: 0.75em;
+}
+
+.company-links a:hover,
+.security-section a:hover {
+    color: var(--color-blue-dark);
+}
+
+.social-media-links {
+    display: flex;
+    height: 2em;
+    margin-bottom: 0.75em;
+}
+
+.social-media-links img {
+    width: 2em;
+}
+
+.security-section {
+    font-size: 1.2rem;
+}
+
+.security-section > small {
+    display: block;
+    margin-bottom: 1.2em;
 }
