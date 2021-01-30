@@ -141,14 +141,14 @@ body > main {
     margin-bottom: 1.454545em;
 }
 
-.store-list-container > ul {
+.store-list-container ul {
     list-style: none;
     display: grid;
     grid: auto-flow 31rem / 1fr;
     row-gap: 4em;
 }
 
-.store-list-container > ul a {
+.store-list-container ul a {
     text-decoration: none;
     color: #262626;
 }
@@ -282,7 +282,7 @@ body > footer a {
     font-size: 1.2rem;
 }
 
-.security-section > small {
+.security-section small {
     display: block;
     margin-bottom: 1.2em;
 }
@@ -305,7 +305,7 @@ body > footer a {
         padding-right: 2em;
     }
 
-    .store-list-container > ul {
+    .store-list-container ul {
         grid-template-columns: repeat(2, 1fr);
         column-gap: 2em;
     }
@@ -319,5 +319,12 @@ body > footer a {
     .security-links {
         display: grid;
         grid: 1fr / repeat(2, 1fr);
+    }
+}
+
+/* TABLET-LANDSCAPE */
+@media (min-width: 1024px) {
+    .store-list-container ul {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
