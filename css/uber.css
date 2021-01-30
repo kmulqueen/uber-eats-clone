@@ -286,3 +286,11 @@ body > footer a {
     display: block;
     margin-bottom: 1.2em;
 }
+
+@media (min-width: 568px) {
+     .footer-links,
+     .security-section {
+        display: grid;
+        grid: 1fr / repeat(2, 1fr);
+    }
+}
