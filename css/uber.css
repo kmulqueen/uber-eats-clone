@@ -287,6 +287,7 @@ body > footer a {
     margin-bottom: 1.2em;
 }
 
+/* PHONE - LANDSCAPE */
 @media (min-width: 568px) {
      .footer-links,
      .security-section {
@@ -295,6 +296,7 @@ body > footer a {
     }
 }
 
+/* TABLET-PORTRAIT */
 @media (min-width: 768px) {
     body > header,
     body > main,
@@ -306,5 +308,16 @@ body > footer a {
     .store-list-container > ul {
         grid-template-columns: repeat(2, 1fr);
         column-gap: 2em;
+    }
+
+    .footer-links,
+    .security-section {
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .other-links,
+    .security-links {
+        display: grid;
+        grid: 1fr / repeat(2, 1fr);
     }
 }
