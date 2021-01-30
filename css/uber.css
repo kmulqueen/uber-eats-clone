@@ -294,3 +294,17 @@ body > footer a {
         grid: 1fr / repeat(2, 1fr);
     }
 }
+
+@media (min-width: 768px) {
+    body > header,
+    body > main,
+    body > footer {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .store-list-container > ul {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2em;
+    }
+}
